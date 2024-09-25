@@ -64,28 +64,28 @@ document.getElementById('add-money-2')
 
 });
 
-// document.getElementById('add-money-3')
-// .addEventListener('click', function(event){
-//     event.preventDefault();
+document.getElementById('add-money-3')
+.addEventListener('click', function(event){
+    event.preventDefault();
 
-//     const addMonyInput = document.getElementById('input-add-money-3').value;
+    const addMonyInput = document.getElementById('input-add-money-3').value;
     
 
-//     if (addMonyInput || number <= 0) {
-//         alert('add money sucessfully')
-//         const account = document.getElementById('balance-3').innerText;
-//         console.log(account)
+    if (addMonyInput || number <= 0) {
+        alert('add money sucessfully')
+        const account = document.getElementById('balance-3').innerText;
+        console.log(account)
 
 
-//         const addMoneyNumber = parseFloat(addMonyInput);
-//         const balanceNumber = parseFloat(account);
-//         const newBalance = addMoneyNumber + balanceNumber;
-//         console.log(newBalance)
+        const addMoneyNumber = parseFloat(addMonyInput);
+        const balanceNumber = parseFloat(account);
+        const newBalance = addMoneyNumber + balanceNumber;
+        console.log(newBalance)
 
-//         document.getElementById('balance-3').innerText = newBalance;
+        document.getElementById('balance-3').innerText = newBalance;
         
-//     } else {
-//         alert("invalid number.please enter the positive number");
-//     }
+    } else {
+        alert("invalid number.please enter the positive number");
+    }
 
-// });
+});
